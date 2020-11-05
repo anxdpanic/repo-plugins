@@ -13,7 +13,16 @@ Additional information :
 - Submitting your add-on to this specific branch makes it available to any Kodi version equal or higher than the branch name with the applicable Kodi dependencies limits.
 - [add-on development](http://kodi.wiki/view/Add-on_development) wiki page.
 - Kodi [pydocs](http://kodi.wiki/view/PyDocs) provide information about the Python API
-- [PEP8](https://www.python.org/dev/peps/pep-0008/) codingstyle which is considered best practice but not mandatory.
+- [PEP8](https://www.python.org/dev/peps/pep-0008/) coding style which is considered best practice but not mandatory.
 - This add-on repository has automated code guideline check which could help you improve your coding. You can find the results of these check at [Codacy](https://www.codacy.com/app/Kodi/repo-plugins/dashboard). You can create your own account as well to continuously monitor your python coding before submitting to repo.
 - Development questions can be asked in the [add-on development](http://forum.kodi.tv/forumdisplay.php?fid=26) section on the Kodi forum.
 - If you see no activity on your PR after a week (so at least one weekend has passed) then please go to the #kodi-dev freenode IRC channel to reach out to the team
+
+PEP8:
+
+We highly suggest adopting the PEP8 coding style. This will improve the readability and consistency of your code which will make it easier for others to contribute to/review your project, and leads to faster inclusion into the repository.
+
+- [PEP8 Style Guide](https://www.python.org/dev/peps/pep-0008/)
+- An IDE can help in writing and maintaining the PEP8 coding style ie. [VSCode](https://code.visualstudio.com/), [PyCharm](https://www.jetbrains.com/pycharm/), ...
+- There are also many tools that assist in enforcing the PEP8 coding style ie. [yapf](https://github.com/google/yapf), [Pylint](https://www.pylint.org/), [flake8](https://gitlab.com/pycqa/flake8), ...
+
